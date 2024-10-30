@@ -1,0 +1,86 @@
+*{
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+.wrapper{
+  background-color: whitesmoke;
+  padding: 3rem 1rem;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+}
+.input-container{
+  padding: 1rem 0rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+input[type=text]{
+  width: 100%;
+  height: 1.5rem;
+  padding: 1rem;
+}
+.submit{
+  width: 40%;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem auto;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+.container{
+  padding: 1rem 0rem;
+}
+.task-card{
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem 0rem;
+}
+.textarea{
+  width: 100%;
+  outline: none;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+.edith-btn{
+  width: 40%;
+  padding: 0.2rem 0.5rem;
+  margin: 0rem auto;
+  color: white;
+  background-color: grey;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.save-btn{
+  width: 40%;
+  padding: 0.2rem 0.5rem;
+  margin: 0rem auto;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+.delete-btn{
+  width: 40%;
+  padding: 0.2rem 0.5rem;
+  margin: 0rem auto;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid red;
+}
